@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && tsc",
-    "start": "NODE_ENV=production node distt/index.js"
+    "start": "node distt/index.js"
   },
   "keywords": [],
   "author": "",
