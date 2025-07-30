@@ -1,4 +1,4 @@
-import { error } from "console";
+// import { error } from "console";
 import { Response } from "express";
 import { Notification } from "../models/notification.model";
 

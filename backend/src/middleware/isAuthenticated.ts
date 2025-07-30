@@ -1,4 +1,4 @@
-import { error } from "console";
+// import { error } from "console";
 import { User } from "../models/user.model";
 import jwt from "jsonwebtoken";
 export const isAuthenticated = async (req: any, res: any, next: any) => {
